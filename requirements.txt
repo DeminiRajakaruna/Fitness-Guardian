@@ -1,0 +1,19 @@
+Flask==2.0.3
+jupyter==1.0.0
+mediapipe==0.8.9.1
+numpy==1.21.6
+opencv-python==4.5.5.64
+pandas==1.3.5
+
+
+#If you want to detect your movements live with your webcam, you can run the code line below.
+```
+#python main.py -t sit-up
+# or python main.py -t pull-up
+# or python main.py -t push-up
+# or python main.py -t squat
+
+#python main.py -t sit-up -vs videos/pull-up.mp4
+#python main.py -t sit-up -vs videos/sit-up.mp4
+#python main.py -t sit-up -vs videos/push-up.mp4
+#python main.py -t sit-up -vs videos/squat.mp4
